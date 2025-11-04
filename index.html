@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>Genius Kids Academy - Abacus & Vedic Maths</title>
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="video-frame">
+        <div class="scene scene-intro">
+          <div class="logo-burst">
+            <div class="logo-circle">GKA</div>
+            <h1>Genius Kids Academy</h1>
+            <p class="tagline">Igniting Abacus &amp; Vedic Maths Superpowers</p>
+          </div>
+        </div>
+
+        <div class="scene scene-classroom">
+          <div class="teacher-students">
+            <div class="teacher">
+              <div class="teacher-face"></div>
+              <div class="teacher-body"></div>
+              <div class="teacher-arm"></div>
+            </div>
+            <div class="abacus-board">
+              <div class="abacus-row"></div>
+              <div class="abacus-row"></div>
+              <div class="abacus-row"></div>
+              <div class="abacus-row"></div>
+              <div class="abacus-row"></div>
+            </div>
+            <div class="students">
+              <div class="student">
+                <div class="student-face happy"></div>
+                <div class="student-body"></div>
+              </div>
+              <div class="student">
+                <div class="student-face happy"></div>
+                <div class="student-body"></div>
+              </div>
+              <div class="student">
+                <div class="student-face happy"></div>
+                <div class="student-body"></div>
+              </div>
+            </div>
+          </div>
+          <p class="scene-caption">Guided by passionate mentors</p>
+        </div>
+
+        <div class="scene scene-challenge">
+          <div class="scoreboard">
+            <span class="score score-1">82</span>
+            <span class="score score-2">79</span>
+            <span class="score score-3">88</span>
+          </div>
+          <div class="challenge-kids">
+            <div class="kid">
+              <div class="kid-face smile"></div>
+              <div class="kid-body"></div>
+              <div class="kid-abacus"></div>
+            </div>
+            <div class="kid">
+              <div class="kid-face smile"></div>
+              <div class="kid-body"></div>
+              <div class="kid-abacus"></div>
+            </div>
+          </div>
+          <p class="scene-caption">Speed math challenges build excitement</p>
+        </div>
+
+        <div class="scene scene-closeup">
+          <div class="abacus-closeup">
+            <div class="bead-row">
+              <span class="bead bead-1"></span>
+              <span class="bead bead-2"></span>
+              <span class="bead bead-3"></span>
+              <span class="bead bead-4"></span>
+              <span class="bead bead-5"></span>
+            </div>
+            <div class="bead-row">
+              <span class="bead bead-1"></span>
+              <span class="bead bead-2"></span>
+              <span class="bead bead-3"></span>
+              <span class="bead bead-4"></span>
+              <span class="bead bead-5"></span>
+            </div>
+            <div class="bead-row">
+              <span class="bead bead-1"></span>
+              <span class="bead bead-2"></span>
+              <span class="bead bead-3"></span>
+              <span class="bead bead-4"></span>
+              <span class="bead bead-5"></span>
+            </div>
+          </div>
+          <div class="floating-layer">
+            <div class="float-item float-equation">12 × 9 = 108</div>
+            <div class="float-item float-brain">
+              <svg viewBox="0 0 120 80" aria-hidden="true">
+                <path
+                  d="M30 50c-10-20 5-45 25-30 5-18 35-18 38 4 15-5 25 15 10 28 12 8 8 28-12 26-5 10-25 12-30-4-16 12-42-5-31-24z"
+                ></path>
+              </svg>
+            </div>
+            <div class="float-item float-number">+42</div>
+            <div class="float-item float-formula">√144 = 12</div>
+          </div>
+          <p class="scene-caption">Hands-on practice sparks lightning-fast thinking</p>
+        </div>
+
+        <div class="scene scene-benefits">
+          <div class="benefit benefit-1">🧠 Boosts Concentration</div>
+          <div class="benefit benefit-2">⚡ Increases Calculation Speed</div>
+          <div class="benefit benefit-3">💡 Enhances Memory</div>
+          <div class="benefit benefit-4">🎯 Builds Confidence</div>
+        </div>
+
+        <div class="scene scene-outro">
+          <div class="final-card">
+            <div class="final-logo">Genius Kids Academy</div>
+            <p class="outro-tagline">Smart Minds Start Here!</p>
+            <div class="contact">
+              <p>Call: +91 98765 43210</p>
+              <p>Email: hello@geniuskidsacademy.com</p>
+              <p>geniuskidsacademy.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overlay" id="overlay">
+          <button id="playButton" type="button">Tap to Play with Sound</button>
+        </div>
+        <audio id="bgMusic" preload="auto">
+          <source src="audio/background-music.wav" type="audio/wav" />
+        </audio>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
